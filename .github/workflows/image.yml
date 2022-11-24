@@ -15,7 +15,7 @@ jobs:
       with:
         host: 52.66.201.69
         username: ubuntu
-        key: ${{ secrets.KEY }}
+        KEY: ${{ secrets.KEY }}
         port: 22
         script: |
           whoami
