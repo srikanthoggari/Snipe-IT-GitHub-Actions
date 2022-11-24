@@ -19,5 +19,6 @@ jobs:
         port: 22
         script: |
           whoami
+          pwd
           cd /var/www/snipe-it
           sudo git pull origin main
