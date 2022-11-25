@@ -23,4 +23,6 @@ jobs:
           git clone https://github.com/srikanthoggari/Snipe-IT-GitHub-Actions.git
           cd /home/ubuntu/Snipe-IT-GitHub-Actions
           sudo git pull origin
+          sudo docker-compose up -d
+          sudo docker-compose up --build -d
           
