@@ -20,6 +20,8 @@ jobs:
         script: |
           whoami
           pwd
-           git clone https://github.com/srikanthoggari/Snipe-IT-GitHub-Actions.git
+          git clone https://github.com/srikanthoggari/Snipe-IT-GitHub-Actions.git
           cd /home/ubuntu/Snipe-IT-GitHub-Actions
-          sudo git pull origin 
+          sudo git pull origin
+          sudo docker-compose up -d
+          
