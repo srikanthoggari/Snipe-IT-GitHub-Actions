@@ -13,7 +13,7 @@ jobs:
     - name: executing remote ssh commands using key
       uses: appleboy/ssh-action@master
       with:
-        host: 13.233.147.116
+        host: 13.233.154.78
         username: ubuntu
         key: ${{ secrets.KEY }}
         port: 22
@@ -23,6 +23,5 @@ jobs:
           git clone https://github.com/srikanthoggari/Snipe-IT-GitHub-Actions.git
           cd /home/ubuntu/Snipe-IT-GitHub-Actions
           sudo git pull origin
-          sudo docker-compose up -d
-          sudo docker-compose up --build -d
+      
           
